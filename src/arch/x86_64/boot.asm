@@ -38,7 +38,7 @@ error:
 
 check_multiboot:
     ;Checks for a multiboot magic number
-    cmp eax, 0x2BADB002
+    cmp eax, 0x36d76289
     jne .no_multiboot
 ret
     .no_multiboot:
